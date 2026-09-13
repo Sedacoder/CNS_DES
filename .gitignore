@@ -1,0 +1,19 @@
+# Environment & Secret files (Database Passwords, API Keys)
+.env
+.env.local
+*.pem
+# Database files & logs
+*.log
+*.sqlite
+*.db
+# Node.js dependencies
+node_modules/
+# Python dependencies & cache
+__pycache__/
+*.pyc
+venv/
+.venv/
+# IDE / Editor configuration
+.vscode/
+.idea/
+.DS_Store
